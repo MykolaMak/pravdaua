@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+/*870px min weight or 1000px for slider*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+a:hover {
+    color: #5C3566FF;
+    transition: 0.25s;
+}
+ul {
+    list-style: none;
+}
+.clearfix {
+    clear: both;
+}
+
+.top-menu-header {
+    text-align: center;
+    font-size: 11px;
+}
+.top-menu-header li {
+    display: inline;
+    margin: 4px;
+    padding: 4px;
+    text-transform: uppercase;
+}
+.top-menu-header .first-link {
+    color: #A40000FF;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0px 100px;
+    border-top: 1px solid #D3D7CFFF;
+    border-bottom: 1px solid #D3D7CFFF;
+}
+
+.top-social {
+    display: flex;
+    width: 25%;
+}
+.item {
+    display: inline-block;
+    width: 64px;
+    height: 42px;
+    margin: auto;
+    margin-left: 5px;
+    border: 1px solid #D3D7CFFF;
+}
+.item img {
+    width: 42px;
+    height: 42px;
+    opacity: 0.4;
+}
+.main-logo {
+    width: 50%;
+}
+
+.main-logo a {
+    color: black;
+}
+
+.main-logo a h1 {
+    text-transform: uppercase;
+    font-weight: 575;
+    margin: 0;
+}
+.main-logo h4 {
+    font-family: Arial;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 0.7em;
+    margin-top: 0;
+}
+.right-header {
+    display: flex;
+    width: 25%;
+}
+
+.language {
+    width: 64px;
+    height: 42px;
+    margin: auto;
+    border: 1px solid #D3D7CFFF;
+}
+.language p {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+.active-language {
+    color: #A40000FF;
+}
+
+.search {
+    width: 42px;
+    height: 42px;
+    margin: auto;
+    margin-left: 5px;
+    border: 1px solid #D3D7CFFF;
+}
+.search img {
+    width: 42px;
+    height: 42px;
+}
+
+.bottom-menu-header {
+    text-align: center;
+    font-size: 11px;
+}
+.bottom-menu-header li {
+    display: inline;
+    margin: 4px;
+    padding: 4px;
+    text-transform: uppercase;
+}
+.bottom-menu-header .first-link {
+    color: #A40000FF;
+}
+.podcasts {
+    color: #A40000FF;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+/* ------------------------------ Slider setings starts --------------------------------- */
+.slider-wrap {
+    height: 119px;
+    background: #333;
+    border-top: 5px solid #900022;
+}
+.slider {
+    float: center;
+    width: 85%;
+    height: 114px;
+    margin: auto;
+}
+
+.slick-slide {
+    margin: 0 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+.slick-slide {
+    transition: all ease-in-out .3s;
+
+    opacity: .2;
+}
+
+.slick-active {
+    opacity: .5;
+}
+
+.slick-current {
+    opacity: 1;
+}
+.slider img {
+    float: left;
+    width: 105px;
+    height: 65px;
+    margin: 10px;
+    margin-top: 20px;
+}
+.slider h3 {
+    font-size: 12px;
+    padding: 10px;
+    height: 60px;
+    width: 283px;
+}
+.slider a {
+    outline: 0;
+    vertical-align: baseline;
+    color: white;
+}
+
+/* ------------------------------ Slider setings end --------------------------------- */
