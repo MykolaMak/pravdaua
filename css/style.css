@@ -145,6 +145,7 @@ ul {
     color: #A40000FF;
     font-weight: 900;
 }
+
 /* ------------------------------ Slider setings starts --------------------------------- */
 .slider-wrap {
     height: 119px;
@@ -205,9 +206,8 @@ ul {
 #check-menu {
     display: none;
 }
-
-
 /* ------------------------------ Slider setings end --------------------------------- */
+
 @media screen and (max-width: 1000px) {
     .slider h3 {
         width: 250px;
@@ -230,7 +230,7 @@ ul {
         padding-top: 5px;
         min-width: 320px;
     }
-    /*burger menu*/
+    /*----------------------------------------burger menu-----------------------------------------*/
     .wrapper {
         margin: 5px auto;
         width: 40px;
@@ -327,10 +327,90 @@ ul {
         display: none;
         transition: 0.5s;
     }
-    /*burger menu end*/
+    /*----------------------------burger menu end----------------------------------------*/
+    .title p {
+        display: none;
+    }
+    .article a {
+        font-size: 11px;
+    }
 }
 
+main {
+    display: flex;
+    margin: 20px;
+    width: 100%;
+}
+aside {
+    display: block;
+    margin: 5px;
+    width: 33.333%;
+    border-right: 1px solid #900022;
+}
+.center-column {
+    display: block;
+    margin: 5px;
+    width: 33.333%;
+}
+.right-side-column {
+    display: block;
+    margin: 5px;
+    width: 33.333%;
+}
 
+.wraper {
+    border: 1px solid #D3D7CFFF;
+}
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+.title a {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #900022;
+    margin: 15px;
+}
+.title p {
+    margin: 7%;
+    font-size:12px;
+    color: grey;
+    text-transform: uppercase;
+}
+
+.article {
+    display: flex;
+    width: 90%;
+    margin: 10px;
+    border-top: 1px solid #D3D7CFFF;
+}
+.article-title {
+    font-family: sans-serif;
+    font-size:13px;
+    color: grey;
+    margin: 5px;
+}
+.article a {
+    color: black;
+    margin: 10px;
+}
+.bold {
+    font-weight: 700;
+}
+.article em {
+    background: #D3D7CFFF;
+    font-size: 13px;
+    padding: 3px;
+    font-weight: 600;
+}
+.news-data {
+    font-family: sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: grey;
+    font-weight: 600;
+    margin-left: 10%;
+}
 
 /*-------------------------------footer starts -------------------------------------------*/
 footer {
