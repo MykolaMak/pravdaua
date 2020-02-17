@@ -334,6 +334,27 @@ ul {
     .article a {
         font-size: 11px;
     }
+    footer {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .footer-copyright {
+        margin: 0px;
+        padding: 0px;
+        font-size: 11px;
+    }
+    .footer-social {
+        display: none;
+    }
+    .footer-info {
+        display: none;
+    }
+    .contacts a, .contacts p {
+        font-size: 11px;
+        margin: 0px;
+        padding: 0px;
+    }
 }
 
 main {
@@ -342,6 +363,7 @@ main {
     width: 100%;
 }
 aside {
+    min-width: 175px;
     display: block;
     margin: 5px;
     width: 33.333%;
