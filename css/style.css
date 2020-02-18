@@ -2,6 +2,7 @@
 /*870px min weight or 1000px for slider*/
 
 html, body {
+    width: 100%;
     min-width: 320px;
     margin: 0;
     padding: 0;
@@ -212,7 +213,9 @@ ul {
 
 main {
     display: flex;
-    margin: 20px;
+    margin: auto;
+    width: 89%;
+
 }
 aside {
     min-width: 175px;
@@ -314,6 +317,7 @@ aside {
     left: 3%;
 }
 .inner-img a img {
+    padding: 5px;
     width: 100%;
 }
 .inner-img a p {
