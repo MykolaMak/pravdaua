@@ -215,6 +215,7 @@ main {
     display: flex;
     margin: auto;
     width: 89%;
+    padding: 0;
 
 }
 aside {
