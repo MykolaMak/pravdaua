@@ -518,7 +518,7 @@ footer p {
         visibility: hidden;
     }
 }
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 850px) {
     .top-menu-header, .right-header, .top-social {
         display: none;
     }
