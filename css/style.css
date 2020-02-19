@@ -514,8 +514,22 @@ footer p {
     }
 }
 @media screen and (max-width: 870px) {
-    .slider h3 {
-        visibility: hidden;
+    /*-----------slider------------*/
+    .regular {
+        position: relative;
+    }
+    .inner-text {
+        position: absolute;
+        top: 10%;
+        margin: 20px;     
+    }
+    .inner-text h3 {
+        display: block;
+        margin: 0px;
+        padding: 0px 10px 10px 0px;
+        width: 105px;
+        height: 65px;
+        opacity: 1;
     }
 }
 @media screen and (max-width: 850px) {
@@ -692,4 +706,11 @@ footer p {
         width: 100%;
     }
 }
-/*---------------------burger----------------------*/
+/*---------------------burger end----------------------*/
+
+
+@media screen and (max-width: 370px) {
+    .slider-wrap {
+        display: none;
+    }
+}
