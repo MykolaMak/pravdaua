@@ -52,7 +52,7 @@ ul {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    padding: 0px 100px;
+    /*padding: 0px 100px;*/
     border-top: 1px solid #D3D7CFFF;
     border-bottom: 1px solid #D3D7CFFF;
 }
@@ -83,11 +83,11 @@ ul {
 }
 
 .main-logo a h1 {
-    min-width: 320px;
+    /*min-width: 320px;*/
     font-size: 30px;
     font-family: 'Playfair Display';
     text-transform: uppercase;
-    font-weight: 575;
+    font-weight: 600;
     margin: 0;
 }
 .main-logo h4 {
@@ -154,7 +154,6 @@ ul {
     border-top: 5px solid #900022;
 }
 .slider {
-    float: center;
     width: 85%;
     height: 114px;
     margin: auto;
@@ -214,15 +213,15 @@ ul {
 main {
     display: flex;
     margin: auto;
-    width: 89%;
-    padding: 0;
+    width: 80%;
+    padding: 0px;
 
 }
 aside {
     min-width: 175px;
     display: block;
     margin: 0.333%;
-    width: 33%;
+    width: 23%;
     border-right: 1px solid #900022;
 }
 .center-column {
@@ -234,7 +233,7 @@ aside {
 .right-side-column {
     display: block;
     margin: 0.333%;
-    width: 25%;
+    width: 35%;
 }
 
 .wraper {
@@ -384,6 +383,8 @@ aside {
     color: grey;
 }
 
+/* -------------------right column ----------------------*/
+
 .right-side-column div:first-child {
     width: 320px;
     color: white;
@@ -393,8 +394,12 @@ aside {
     font-size: 1rem;
     font-weight: 600;
 }
+.right-side-first-div {
+    color: white;
+}
 .youtube-image {
     position: relative;
+    /*width: 100%;*/
     width: 320px;
 }
 .youtube {
@@ -454,7 +459,6 @@ aside {
     font-size: 11px;
     font-weight: 600;
     color: black;
-    line-height: ;
 }
 
 
@@ -498,6 +502,11 @@ footer p {
 
 
 /*-----------------------media -------------------------------*/
+@media screen and (max-width: 1180px) {
+    .right-side-column .youtube-image{
+        display: none;
+    }
+    }
 @media screen and (max-width: 1000px) {
     .slider h3 {
         width: 250px;
@@ -536,9 +545,6 @@ footer p {
     .label {
         display: block;
         position: absolute;
-        top: 10;
-        left: 10;
-        width: 100%;
         height: 100%;
         cursor: pointer;
         z-index: 2;
@@ -680,6 +686,7 @@ footer p {
     }
     main {
         display: block;
+        padding: 0px;
     }
     aside, .center-column{
         width: 100%;
